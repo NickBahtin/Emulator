@@ -6,7 +6,6 @@ uses
   uCHILDWIN in 'uCHILDWIN.pas' {MDIChild},
   uAbout in 'uAbout.pas' {AboutForm},
   uBaseFrame in 'uBaseFrame.pas' {BaseFrame: TFrame},
-  uProcedures in 'uProcedures.pas',
   uTemp6 in 'uTemp6.pas' {frmTemp6: TFrame},
   uUI in 'uUI.pas' {frmUI: TFrame},
   uSuperBio in 'uSuperBio.pas' {frmSuperBio: TFrame},

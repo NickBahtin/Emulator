@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Modules,Helper,uProcedures,
+  Modules,Helper,
   Dialogs, uBaseFrame, Ex_Grid, ExtCtrls, StdCtrls, Spin, ComCtrls;
 
 type                                

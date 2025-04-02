@@ -9,7 +9,7 @@ uses
   StrUtils,
   Dialogs, uBaseFrame, Ex_Grid, ComCtrls;
 const
-  cValveIncDecStep=50;
+  cValveIncDecStep=5;
   gvOpenCloseNames:array[boolean] of String=('0','1');
   gvStateNames:array[0..3] of String=(
   'ярно',

@@ -7,7 +7,7 @@ uses Windows, SysUtils, Classes, Graphics, Forms, Controls, StdCtrls, ComCtrls, 
   ClipBrd,
   ExtCtrls, Ex_Grid,OoMisc, Buttons, ToolWin,
   CPortCtl, CPort, Messages,
-  Modules,uProcedures,DateUtils,uAbout,
+  Modules, DateUtils,uAbout,
   RichEdit, Menus, RxRichEd, uBaseFrame,uUI, uTemp6, uSuperBio, uBio, HexEdits,
   KbdHelper,
   uValve, uBalance, uFCD, uCounterX, uVLT600, uCounter;

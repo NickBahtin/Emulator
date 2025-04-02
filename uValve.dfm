@@ -1,5 +1,9 @@
 inherited frmValve: TfrmValve
+  Width = 562
+  Height = 266
   inherited gvTable: TGridView
+    Width = 562
+    Height = 247
     Columns = <
       item
         Alignment = taRightJustify
@@ -113,5 +117,8 @@ inherited frmValve: TfrmValve
     OnGetCellText = gvTableGetCellText
     OnGetEditText = gvTableGetEditText
     OnSetEditText = gvTableSetEditText
+  end
+  inherited sbIO: TStatusBar
+    Width = 562
   end
 end

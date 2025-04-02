@@ -139,7 +139,4 @@ inherited frmTemp6: TfrmTemp6
         '!%2.2X')
     end
   end
-  inherited sbIO: TStatusBar
-    Top = 205
-  end
 end

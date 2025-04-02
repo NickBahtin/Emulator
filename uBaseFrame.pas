@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Modules,Helper,uProcedures,
+  Modules,Helper,
   Dialogs, Ex_Grid, ComCtrls;
 
 const
@@ -14,6 +14,7 @@ const
   'Привязка'
   );
 type
+  TAnswerReceiveEvent=procedure (Sender: TObject; const Value: String) of Object;
   TBaseFrame = class(TFrame)
     gvTable: TGridView;
     sbIO: TStatusBar;
