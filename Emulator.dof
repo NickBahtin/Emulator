@@ -113,9 +113,9 @@ RootDir=C:\Program Files\Borland\Delphi7\Bin\
 IncludeVerInfo=1
 AutoIncBuild=0
 MajorVer=1
-MinorVer=24
-Release=10
-Build=19
+MinorVer=25
+Release=8
+Build=25
 Debug=0
 PreRelease=1
 Special=1
@@ -126,7 +126,7 @@ CodePage=1251
 [Version Info Keys]
 CompanyName=ООО ТБН Энергосервис
 FileDescription=Эмулятор протоколов
-FileVersion=1.24.10.19
+FileVersion=1.25.8.25
 InternalName=Emulator
 LegalCopyright=
 LegalTrademarks=
@@ -137,7 +137,7 @@ SpecialBuild=
 [Excluded Packages]
 D:\Borland\Delphi7\Bin\inet70.bpl=Borland Internet/World Wide Web components
 d:\borland\delphi7\Bin\dbx70.bpl=Borland SQL Explorer UI Package
-D:\Borland\VCL\FP\fp.bpl=FP Components
+d:\borland\delphi7\Projects\Bpl\fp.bpl=Набор компонентов для проливочного стенда 2021г декабрь
 [HistoryLists\hlDebugSourcePath]
 Count=1
 Item0=debug

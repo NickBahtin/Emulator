@@ -675,7 +675,7 @@ begin
     begin
        if SlaveFlowmeterFreq_J[i]<>0 then
        begin
-          noise:=(seNoise.Value div 2 - Random(seNoise.Value))/100+SlaveFlowmeterFreq_J[i];
+          noise:=(seNoise.Value div 2 - Random(seNoise.Value))/1000+SlaveFlowmeterFreq_J[i];
           if noise>0 then
              SlaveFlowmeterFreq_J[i]:=noise
           else
@@ -687,7 +687,7 @@ begin
     begin
        if MasterFlowmeterFreq_J[i]<>0 then
        begin
-          noise:=(seNoise.Value div 2 - Random(seNoise.Value))/100+MasterFlowmeterFreq_J[i];
+          noise:=(seNoise.Value div 2 - Random(seNoise.Value))/1000+MasterFlowmeterFreq_J[i];
           if noise>0 then
              MasterFlowmeterFreq_J[i]:=noise
           else

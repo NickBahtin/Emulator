@@ -3,7 +3,7 @@ object MainForm: TMainForm
   Top = 170
   Width = 783
   Height = 545
-  Caption = #1069#1084#1091#1083#1103#1090#1086#1088' '#1087#1088#1086#1090#1086#1082#1086#1083#1086#1074' 2022..24'
+  Caption = #1069#1084#1091#1083#1103#1090#1086#1088' '#1087#1088#1086#1090#1086#1082#1086#1083#1086#1074' 2022..25'
   Color = clAppWorkSpace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clBlack

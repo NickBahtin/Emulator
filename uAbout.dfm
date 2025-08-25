@@ -1478,9 +1478,9 @@ object AboutForm: TAboutForm
     object Version: TLabel
       Left = 100
       Top = 40
-      Width = 135
+      Width = 129
       Height = 13
-      Caption = #1042#1077#1088#1089#1080#1103' 1.24.109.19  '#1084#1086#1076'. 1'
+      Caption = #1042#1077#1088#1089#1080#1103' 1.25.08.25  '#1084#1086#1076'. 1'
       IsControl = True
     end
     object Copyright: TLabel
