@@ -1,7 +1,7 @@
 object MDIChild: TMDIChild
   Left = 673
   Top = 312
-  Width = 882
+  Width = 1108
   Height = 595
   Caption = 'MDI Child'
   Color = clBtnFace
@@ -18,7 +18,7 @@ object MDIChild: TMDIChild
   object pcMain: TPageControl
     Left = 0
     Top = 0
-    Width = 866
+    Width = 1092
     Height = 556
     ActivePage = TabSheet1
     Align = alClient
@@ -34,9 +34,9 @@ object MDIChild: TMDIChild
       object pcControllers: TPageControl
         Left = 0
         Top = 36
-        Width = 858
+        Width = 1084
         Height = 492
-        ActivePage = tsBIO
+        ActivePage = tsHSC_IMP
         Align = alClient
         TabOrder = 0
         object tsCounter: TTabSheet
@@ -44,19 +44,19 @@ object MDIChild: TMDIChild
           inline fCounter: TfrmCounter
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 412
             end
             inherited Panel1: TPanel
-              Width = 850
+              Width = 1076
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -66,19 +66,19 @@ object MDIChild: TMDIChild
           inline fCounterEx: TfrmCounterX
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 412
             end
             inherited Panel1: TPanel
-              Width = 850
+              Width = 1076
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -88,20 +88,20 @@ object MDIChild: TMDIChild
           inline fFCD: TfrmFCD
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 412
             end
             inherited Panel1: TPanel
               Top = 431
-              Width = 850
+              Width = 1076
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -111,16 +111,16 @@ object MDIChild: TMDIChild
           inline fScales: TfrmBalance
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 445
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -130,12 +130,12 @@ object MDIChild: TMDIChild
           inline fSuperBio: TfrmSuperBio
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 412
               Columns = <
                 item
@@ -274,10 +274,10 @@ object MDIChild: TMDIChild
             end
             inherited Panel1: TPanel
               Top = 431
-              Width = 850
+              Width = 1076
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -287,12 +287,12 @@ object MDIChild: TMDIChild
           inline fTemp6: TfrmTemp6
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 404
               Header.Sections = <
                 item
@@ -344,10 +344,10 @@ object MDIChild: TMDIChild
             end
             inherited pnl1: TPanel
               Top = 423
-              Width = 850
+              Width = 1076
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -357,12 +357,12 @@ object MDIChild: TMDIChild
           inline fUI: TfrmUI
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 420
               Columns = <
                 item
@@ -456,10 +456,10 @@ object MDIChild: TMDIChild
             end
             inherited Panel1: TPanel
               Top = 439
-              Width = 850
+              Width = 1076
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -469,16 +469,16 @@ object MDIChild: TMDIChild
           inline fValve: TfrmValve
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 445
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -488,16 +488,16 @@ object MDIChild: TMDIChild
           inline fVLT6000: TfVLT6000
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 445
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
             end
           end
         end
@@ -519,21 +519,48 @@ object MDIChild: TMDIChild
           inline fBIO: TfrmBio
             Left = 0
             Top = 0
-            Width = 850
+            Width = 1076
             Height = 464
             Align = alClient
             TabOrder = 0
             inherited gvTable: TGridView
-              Width = 850
+              Width = 1076
               Height = 412
             end
             inherited Panel1: TPanel
               Top = 431
-              Width = 850
+              Width = 1076
             end
             inherited sbIO: TStatusBar
-              Width = 850
+              Width = 1076
               Color = 16776176
+            end
+          end
+        end
+        object tsHSC_IMP: TTabSheet
+          Caption = #1057#1095#1077#1090#1095#1080#1082' HSC_IMP'
+          ImageIndex = 13
+          inline frmHSC_IMP1: TfrmHSC_IMP
+            Left = 0
+            Top = 0
+            Width = 1076
+            Height = 464
+            Align = alClient
+            TabOrder = 0
+            inherited Panel1: TPanel
+              Width = 1076
+              inherited LED1: TLED
+                OnClick = nil
+              end
+            end
+            inherited gvHSC_IMP: TGridView
+              Height = 431
+              OnCellClick = nil
+              OnGetCellColors = nil
+              OnGetCellReadOnly = nil
+              OnGetCellText = nil
+              OnGetEditText = nil
+              OnSetEditText = nil
             end
           end
         end
@@ -541,7 +568,7 @@ object MDIChild: TMDIChild
       object Panel1: TPanel
         Left = 0
         Top = 0
-        Width = 858
+        Width = 1084
         Height = 36
         Align = alTop
         TabOrder = 1
@@ -581,7 +608,8 @@ object MDIChild: TMDIChild
             #1048#1042#1058#1052
             #1050#1052'5'
             #1056#1058'2/'#1056#1058'2'#1052
-            #1044#1080#1089#1082#1088#1077#1090#1085#1099#1077' '#1074#1093#1086#1076#1099' '#1074#1099#1093#1086#1076#1099' (BIO)')
+            #1044#1080#1089#1082#1088#1077#1090#1085#1099#1077' '#1074#1093#1086#1076#1099' '#1074#1099#1093#1086#1076#1099' (BIO)'
+            #1057#1095#1077#1090#1095#1080#1082' (HSC_IMP)')
         end
         object seNetAddr: THexEdit
           Left = 0
@@ -603,7 +631,7 @@ object MDIChild: TMDIChild
       Caption = #1058#1077#1088#1084#1080#1085#1072#1083
       ImageIndex = 1
       object sMacros: TSplitter
-        Left = 732
+        Left = 958
         Top = 30
         Height = 448
         Align = alRight
@@ -613,7 +641,7 @@ object MDIChild: TMDIChild
       object ToolBar2: TToolBar
         Left = 0
         Top = 0
-        Width = 858
+        Width = 1084
         Height = 30
         BorderWidth = 1
         ButtonHeight = 23
@@ -741,16 +769,16 @@ object MDIChild: TMDIChild
       object pnlSend: TPanel
         Left = 0
         Top = 478
-        Width = 858
+        Width = 1084
         Height = 31
         Align = alBottom
         TabOrder = 1
         Visible = False
         DesignSize = (
-          858
+          1084
           31)
         object CRBtn: TSpeedButton
-          Left = 792
+          Left = 1018
           Top = 5
           Width = 28
           Height = 23
@@ -767,7 +795,7 @@ object MDIChild: TMDIChild
           ParentFont = False
         end
         object LFBtn: TSpeedButton
-          Left = 822
+          Left = 1048
           Top = 5
           Width = 28
           Height = 23
@@ -786,7 +814,7 @@ object MDIChild: TMDIChild
         object edtSend: TEdit
           Left = 1
           Top = 5
-          Width = 705
+          Width = 931
           Height = 21
           Hint = #1057#1090#1088#1086#1082#1072' '#1086#1090#1087#1088#1072#1074#1082#1080
           Anchors = [akLeft, akRight]
@@ -794,7 +822,7 @@ object MDIChild: TMDIChild
           TabOrder = 0
         end
         object btnSend: TButton
-          Left = 716
+          Left = 942
           Top = 4
           Width = 74
           Height = 25
@@ -807,7 +835,7 @@ object MDIChild: TMDIChild
       object ComTerminal: TRxRichEdit
         Left = 0
         Top = 30
-        Width = 732
+        Width = 958
         Height = 448
         DrawEndPage = False
         Align = alClient
@@ -815,7 +843,7 @@ object MDIChild: TMDIChild
         TabOrder = 2
       end
       object gbMacros: TGroupBox
-        Left = 735
+        Left = 961
         Top = 30
         Width = 123
         Height = 448
@@ -853,7 +881,7 @@ object MDIChild: TMDIChild
       object StatusBar1: TStatusBar
         Left = 0
         Top = 509
-        Width = 858
+        Width = 1084
         Height = 19
         Panels = <>
         Visible = False
@@ -874,6 +902,8 @@ object MDIChild: TMDIChild
     FlowControl.XonXoffOut = False
     FlowControl.XonXoffIn = False
     Timeouts.ReadInterval = 500
+    StoredProps = [spBasic]
+    TriggersOnRxChar = True
     OnAfterOpen = ComPort1AfterOpen
     OnAfterClose = ComPort1AfterClose
     OnRxChar = ComPort1RxChar

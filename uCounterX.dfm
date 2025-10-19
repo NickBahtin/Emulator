@@ -1,9 +1,10 @@
 inherited frmCounterX: TfrmCounterX
-  Width = 737
+  Width = 1173
+  Height = 534
   inherited gvTable: TGridView
     Top = 52
-    Width = 737
-    Height = 213
+    Width = 1173
+    Height = 482
     Columns = <
       item
         Alignment = taRightJustify
@@ -95,7 +96,7 @@ inherited frmCounterX: TfrmCounterX
   object Panel1: TPanel [1]
     Left = 0
     Top = 0
-    Width = 737
+    Width = 1173
     Height = 33
     Align = alTop
     TabOrder = 1
@@ -148,7 +149,7 @@ inherited frmCounterX: TfrmCounterX
   end
   inherited sbIO: TStatusBar
     Top = 33
-    Width = 737
+    Width = 1173
   end
   object tmrStartStop: TTimer
     Enabled = False

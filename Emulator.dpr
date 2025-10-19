@@ -15,7 +15,8 @@ uses
   uCounterX in 'uCounterX.pas' {frmCounterX: TFrame},
   uVLT600 in 'uVLT600.pas' {fVLT6000: TFrame},
   uCounter in 'uCounter.pas' {frmCounter: TFrame},
-  uBio in 'uBio.pas' {frmBio: TFrame};
+  uBio in 'uBio.pas' {frmBio: TFrame},
+  uHSC_IMP in 'uHSC_IMP.pas' {frmHSC_IMP: TFrame};
 
 {$R *.res}
 

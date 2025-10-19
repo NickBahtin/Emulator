@@ -1,6 +1,6 @@
 object MainForm: TMainForm
-  Left = 752
-  Top = 170
+  Left = 708
+  Top = 259
   Width = 783
   Height = 545
   Caption = #1069#1084#1091#1083#1103#1090#1086#1088' '#1087#1088#1086#1090#1086#1082#1086#1083#1086#1074' 2022..25'
@@ -89,17 +89,17 @@ object MainForm: TMainForm
     Wrapable = False
     object ToolButton5: TToolButton
       Left = 5
-      Top = 2
+      Top = 0
       Action = aFileNewTerminal
     end
     object ToolButton9: TToolButton
       Left = 28
-      Top = 2
+      Top = 0
       Action = aFileNewController
     end
     object ToolButton4: TToolButton
       Left = 51
-      Top = 2
+      Top = 0
       Width = 8
       Caption = 'ToolButton4'
       ImageIndex = 17
@@ -107,17 +107,17 @@ object MainForm: TMainForm
     end
     object ToolButton1: TToolButton
       Left = 59
-      Top = 2
+      Top = 0
       Action = aFileOpen
     end
     object ToolButton2: TToolButton
       Left = 82
-      Top = 2
+      Top = 0
       Action = aFileSave
     end
     object ToolButton3: TToolButton
       Left = 105
-      Top = 2
+      Top = 0
       Width = 8
       Caption = 'ToolButton3'
       ImageIndex = 2
@@ -125,22 +125,22 @@ object MainForm: TMainForm
     end
     object ToolButton12: TToolButton
       Left = 113
-      Top = 2
+      Top = 0
       Action = aConnection
     end
     object ToolButton13: TToolButton
       Left = 136
-      Top = 2
+      Top = 0
       Action = aDisconnection
     end
     object ToolButton14: TToolButton
       Left = 159
-      Top = 2
+      Top = 0
       Action = aSetupConnection
     end
     object ToolButton16: TToolButton
       Left = 182
-      Top = 2
+      Top = 0
       Width = 8
       Caption = 'ToolButton16'
       ImageIndex = 26
@@ -148,12 +148,12 @@ object MainForm: TMainForm
     end
     object ToolButton15: TToolButton
       Left = 190
-      Top = 2
+      Top = 0
       Action = aDispatcher
     end
     object ToolButton7: TToolButton
       Left = 213
-      Top = 2
+      Top = 0
       Width = 8
       Caption = 'ToolButton7'
       ImageIndex = 3
@@ -161,22 +161,22 @@ object MainForm: TMainForm
     end
     object ToolButton8: TToolButton
       Left = 221
-      Top = 2
+      Top = 0
       Action = WindowCascade1
     end
     object ToolButton10: TToolButton
       Left = 244
-      Top = 2
+      Top = 0
       Action = WindowTileHorizontal1
     end
     object ToolButton11: TToolButton
       Left = 267
-      Top = 2
+      Top = 0
       Action = WindowTileVertical1
     end
     object ToolButton6: TToolButton
       Left = 290
-      Top = 2
+      Top = 0
       Width = 8
       Caption = 'ToolButton6'
       ImageIndex = 17
@@ -184,7 +184,7 @@ object MainForm: TMainForm
     end
     object tbShowJournall: TToolButton
       Left = 298
-      Top = 2
+      Top = 0
       Action = aShowJournal
       Style = tbsCheck
     end
@@ -538,7 +538,7 @@ object MainForm: TMainForm
     Left = 104
     Top = 200
     Bitmap = {
-      494C010125002800040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010125002800080010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       000000000000360000002800000040000000A0000000010020000000000000A0
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -1878,6 +1878,8 @@ object MainForm: TMainForm
     FlowControl.ControlRTS = rtsDisable
     FlowControl.XonXoffOut = False
     FlowControl.XonXoffIn = False
+    StoredProps = [spBasic]
+    TriggersOnRxChar = True
     SyncMethod = smWindowSync
     OnAfterOpen = ComPort1AfterOpen
     OnAfterClose = ComPort1AfterClose

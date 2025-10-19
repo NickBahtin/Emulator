@@ -10,7 +10,7 @@ uses Windows, SysUtils, Classes, Graphics, Forms, Controls, StdCtrls, ComCtrls, 
   Modules, DateUtils,uAbout,
   RichEdit, Menus, RxRichEd, uBaseFrame,uUI, uTemp6, uSuperBio, uBio, HexEdits,
   KbdHelper,
-  uValve, uBalance, uFCD, uCounterX, uVLT600, uCounter;
+  uValve, uBalance, uFCD, uCounterX, uVLT600, uCounter, uHSC_IMP;
 (*
 'mtCounter','mtCounterEx','mtFCD',
    'mtFCD2','mtProver','mtScales','mtScalesMT','mtSuperBIO','mtT','mtTemp2','mtTemp6','mtUI',
@@ -24,7 +24,7 @@ uses Windows, SysUtils, Classes, Graphics, Forms, Controls, StdCtrls, ComCtrls, 
 type
   //тип контроллера в pcControllers
   TEmulModuleType = (emtCounter, emtCounterEx,emtFCD2, emtScales,emtSuperBIO, emtTemp6, emtUI,
-    emtValve, emtVLT6000,emtIVTM, emtKM5,emtRT2,emtBIO);
+    emtValve, emtVLT6000,emtIVTM, emtKM5,emtRT2,emtBIO,emtHSC_IMP);
 
   //режим окна
   TEmulMode = (emController, emTerminal);
@@ -95,6 +95,8 @@ type
     edtMacros: TEdit;
     tsBIO: TTabSheet;
     fBIO: TfrmBio;
+    tsHSC_IMP: TTabSheet;
+    frmHSC_IMP1: TfrmHSC_IMP;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure cbTypeOfControllerChange(Sender: TObject);
@@ -230,7 +232,7 @@ procedure TMDIChild.cbTypeOfControllerChange(Sender: TObject);
 begin
   //провер€ем реализацию
   if not (TEmulModuleType(cbTypeOfController.ItemIndex)
-     in [emtCounter,emtCounterEx,emtScales,emtValve,emtSuperBio,emtBio,emtTemp6, emtUI,emtFCD2,emtVLT6000]) then
+     in [emtCounter,emtCounterEx,emtScales,emtValve,emtSuperBio,emtBio,emtTemp6, emtUI,emtFCD2,emtVLT6000,emtHSC_IMP]) then
   begin
      cbTypeOfController.ItemIndex:=ord(emtTemp6);
      Application.MessageBox('ƒанный тип времено недоступен',
